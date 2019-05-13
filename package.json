@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "art-template": "^4.13.2",
-    "jquery": "1.12.4"
+    "jquery": "1.12.4",
+    "underscore": "1.8.3",
+    "purecss": "^0.6.2"
   },
   "devDependencies": {
     "art-template-loader": "^1.4.3",
