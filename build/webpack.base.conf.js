@@ -47,6 +47,14 @@ module.exports = {
         options: vueLoaderConfig
       },*/
       {
+        test: /\.art$/,
+        loader: "art-template-loader",
+        options: {
+          // art-template options (if necessary)
+          // @see https://github.com/aui/art-template
+        }
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
